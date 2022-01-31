@@ -1,0 +1,52 @@
+h1 
+{
+    background-color: #033048;
+    padding: 20px;
+    border: 10px;
+    color: white
+}
+
+body{
+    font-family: "lato", sans-serif;
+    color: #606161;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border: 20px;
+    padding: 10px; */
+    background-color: #f0efef;   
+}
+
+.line{
+    border: solid #606161;
+    width: 75em;
+
+}
+
+img{
+    /* object-fit: cover; */
+    height: 50em;
+}
+
+.flexbox-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox-item{
+    justify-content: flex-end;
+    font-weight: normal;
+    font-size: 16px;
+    align-items:stretch;
+    align-content: flex-end;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.bold{
+    font-weight: bold;
+}
